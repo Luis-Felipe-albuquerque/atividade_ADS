@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.box-degrade{
+    width: 100%;
+    padding: 449px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(circle at 120.71% 50%, #008aff 0, #0084ff 8.33%, #007cff 16.67%, #5b74ff 25%, #856aff 33.33%, #a45fff 41.67%, #bc53f2 50%, #d045e3 58.33%, #e136d4 66.67%, #ee22c3 75%, #f900b2 83.33%, #ff00a0 91.67%, #ff008e 100%);
+    background-size: 500% 100%;
+    animation: degrade-animado 3s infinite alternate;
+    flex-direction: column;
+}
+
+@keyframes degrade-animado {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
+/*Não me limitei a fazer apenas o "site", busquei novos desafios já que estou iniciando agora no meio da programação*/
