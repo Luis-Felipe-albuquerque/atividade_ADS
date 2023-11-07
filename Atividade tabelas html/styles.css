@@ -1,0 +1,72 @@
+h1 {
+    text-align: center;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.styled-table caption {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.styled-table th {
+    background-color: #ffcbd58f;
+}
+
+.table1 {
+    background: linear-gradient(to bottom, #fdfaf9, #ffefed);
+}
+
+.table1 caption {
+    border-radius: 15px 15px 0px 0px;
+    background-color: #ffd0cb;
+    color: #fff;
+}
+
+.table2 {
+    background: linear-gradient(to bottom, #fdfaf9, #ffefed);
+}
+
+.table2 caption {
+    border-radius: 15px 15px 0px 0px;
+    background-color: #ffd0cb;
+    color: #fff;
+}
+
+.table3 {
+    background: linear-gradient(to bottom, #fdfaf9, #ffefed);
+}
+
+.table3 caption {
+    border-radius: 15px 15px 0px 0px;
+    background-color: #ffd0cb;
+    color: #fff;
+}
+
+.table4 {
+    background: linear-gradient(to bottom, #fdfaf9, #ffefed);
+}
+
+.table4 caption {
+    border-radius: 15px 15px 0px 0px;
+    background-color: #ffd0cb;
+    color: #fff;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+th .normal-text {
+    font-weight: normal; 
+}
