@@ -1,0 +1,15 @@
+button {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+p{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+.input-container {
+  
+  text-align: center;
+}
